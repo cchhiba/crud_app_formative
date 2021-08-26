@@ -1,0 +1,72 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+body{
+  /* background: blue; */
+}
+li{
+  list-style: none;
+}
+
+#loginForm {
+  width: 30%;
+}
+h1 {
+  text-align: center;
+}
+
+button {
+  border: 10px solid black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#addProductDiv,
+#inputIdDiv,
+#deleteProductDiv,
+#formContainer
+ {
+  display: flex;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#addProductDiv button,
+#inputIdDiv button,
+#deleteProductDiv button {
+  display: flex;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.logo {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 60%;
+  height: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
